@@ -11,3 +11,6 @@ target_link_libraries(main_win32 acl_win32)
 
 add_executable(main_gtk main.c)
 target_link_libraries(main_gtk acl_gtk)
+
+add_executable(network_qt network.c)
+target_link_libraries(network_qt acl_qt)
