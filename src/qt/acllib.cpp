@@ -6,37 +6,46 @@
 #include <QGraphicsScene>
 #include <QGraphicsView>
 #include <QtWidgets/QMessageBox>
+#include <cstdlib>
+#define _DEBUG
 extern "C" {
 #include "../common/acllib.h"
 }
 
-QApplication *pApp;
-QMainWindow *pMainWindow;
-
+QApplication *pApp = nullptr;
+QMainWindow *pMainWindow = nullptr;
 
 
 int main(int argc,
          char **argv) {
 
   pApp = new QApplication(argc, argv);
-  pMainWindow = new QMainWindow();
   QGraphicsScene scene;
   scene.addText("Hello, world!");
 
   QGraphicsView view(&scene);
-  pMainWindow->setCentralWidget(&view);
+//  pMainWindow->setCentralWidget(&view);
   Setup();
-  pMainWindow->show();
 //  view.show();
+  ACL_ASSERT(pMainWindow != nullptr, "You must call \"initWindow(...)\" in Main()");
   return pApp->exec();
 }
 
 void initWindow(const char title[], int left, int top, int width, int height) {
 
+  ACL_ASSERT(pMainWindow == nullptr, "Don't call initWindow twice");
+  pMainWindow = new QMainWindow();
+  pMainWindow->show();
 //  GtkApplication *app;
 //  app = gtk_application_window_new(app);
 
 }
+
+void acl_error(char* errorStr) {
+  msgBox("Fatal Error!", errorStr, 0);
+  exit(0);
+}
+
 void msgBox(const char title[], const char text[], int flag) {
   QMessageBox messageBox;
   messageBox.setWindowTitle(title);

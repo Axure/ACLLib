@@ -39,6 +39,19 @@ Be sure to change the leading folders as your installation.
 #ifndef __ACLLIB_H__
 #define __ACLLIB_H__
 
+
+#ifdef _DEBUG
+void acl_error(char* errorStr);
+#define ACL_ASSERT(_Expression,errStr) (void)( (!!(_Expression)) || (acl_error(errStr),0) )
+#else
+#define ACL_ASSERT(flag,errStr) ((void)0)
+#endif
+
+#define ACL_ASSERT_HWND ACL_ASSERT(g_hWnd!=0, \
+	"You should call function \"initWindow(...)\" befor use function \"" __FUNCTION__ "\"" )
+#define ACL_ASSERT_BEGIN_PAINT ACL_ASSERT(g_hmemdc!=0, \
+	"You should call function \"beginPaint()\" befor use function \"" __FUNCTION__ "\"" )
+
 typedef void *PVOID;
 typedef PVOID HANDLE;
 typedef HANDLE HBITMAP;
