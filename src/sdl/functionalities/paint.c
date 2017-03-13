@@ -2,7 +2,7 @@
 // Created by zhenghu on 16-9-10.
 //
 
-#include <SDL2/SDL.h>
+#include <SDL.h>
 #include "functionalities/paint.h"
 #include "../SDL2_gfx/SDL2_gfxPrimitives.h"
 extern SDL_Window *window;
