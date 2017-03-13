@@ -219,3 +219,4 @@ CTestTestfile.cmake
 *.out
 *.app
 
+cmake-build-*/
