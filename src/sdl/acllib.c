@@ -2,7 +2,7 @@
 // Created by zhenghu on 16-7-2.
 //
 #include "acllib.h"
-#include <SDL2/SDL.h>
+#include <SDL.h> // TODO: not sure about what should the most canonical path be.
 #include <stdio.h>
 #include <stdbool.h>
 //Screen dimension constants
