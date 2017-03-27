@@ -1,0 +1,2370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ACLLib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\gtk\;CMake Files\src\qt\;CMake Files\src\win32\;CMake Files\src\sdl\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\lib64\;CMake Files\..\..\..\..\..\usr\lib64\cmake\;CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Core\;CMake Files\..\..\..\..\..\usr\lib64\cmake\SDL2\;CMake Files\test\;CMake Files\test\googletest\;CMake Files\test\googletest\googlemock\;CMake Files\test\googletest\googletest\;CMake Files\test\googletest\googletest\cmake\;CMake Files\test\basic\;CMake Files\examples\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="acl_gtk">
+				<Option output="/home/zhenghu/coding/C/ACLLib/src/gtk/libacl_gtk.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/src/gtk"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/src/common"/>
+					<Add directory="/usr/include/gtk-3.0"/>
+					<Add directory="/usr/include/at-spi2-atk/2.0"/>
+					<Add directory="/usr/include/at-spi-2.0"/>
+					<Add directory="/usr/include/dbus-1.0"/>
+					<Add directory="/usr/lib/dbus-1.0/include"/>
+					<Add directory="/usr/include/gio-unix-2.0"/>
+					<Add directory="/usr/include/cairo"/>
+					<Add directory="/usr/include/pango-1.0"/>
+					<Add directory="/usr/include/atk-1.0"/>
+					<Add directory="/usr/include/pixman-1"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/glib-2.0/include"/>
+					<Add directory="/usr/include/libdrm"/>
+					<Add directory="/usr/include/gdk-pixbuf-2.0"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/src/gtk/Makefile&quot;  VERBOSE=1 acl_gtk"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/src/gtk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/src/gtk/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/src/gtk/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="acl_gtk/fast">
+				<Option output="/home/zhenghu/coding/C/ACLLib/src/gtk/libacl_gtk.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/src/gtk"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/src/common"/>
+					<Add directory="/usr/include/gtk-3.0"/>
+					<Add directory="/usr/include/at-spi2-atk/2.0"/>
+					<Add directory="/usr/include/at-spi-2.0"/>
+					<Add directory="/usr/include/dbus-1.0"/>
+					<Add directory="/usr/lib/dbus-1.0/include"/>
+					<Add directory="/usr/include/gio-unix-2.0"/>
+					<Add directory="/usr/include/cairo"/>
+					<Add directory="/usr/include/pango-1.0"/>
+					<Add directory="/usr/include/atk-1.0"/>
+					<Add directory="/usr/include/pixman-1"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/glib-2.0/include"/>
+					<Add directory="/usr/include/libdrm"/>
+					<Add directory="/usr/include/gdk-pixbuf-2.0"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/src/gtk/Makefile&quot;  VERBOSE=1 acl_gtk/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/src/gtk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/src/gtk/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/src/gtk/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="acl_qt">
+				<Option output="/home/zhenghu/coding/C/ACLLib/src/qt/libacl_qt.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/src/qt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/src/common"/>
+					<Add directory="/usr/include/qt"/>
+					<Add directory="/usr/include/qt/QtWidgets"/>
+					<Add directory="/usr/include/qt/QtGui"/>
+					<Add directory="/usr/include/qt/QtCore"/>
+					<Add directory="/usr/lib/qt/mkspecs/linux-g++"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/src/qt/Makefile&quot;  VERBOSE=1 acl_qt"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/src/qt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/src/qt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/src/qt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="acl_qt/fast">
+				<Option output="/home/zhenghu/coding/C/ACLLib/src/qt/libacl_qt.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/src/qt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/src/common"/>
+					<Add directory="/usr/include/qt"/>
+					<Add directory="/usr/include/qt/QtWidgets"/>
+					<Add directory="/usr/include/qt/QtGui"/>
+					<Add directory="/usr/include/qt/QtCore"/>
+					<Add directory="/usr/lib/qt/mkspecs/linux-g++"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/src/qt/Makefile&quot;  VERBOSE=1 acl_qt/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/src/qt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/src/qt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/src/qt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="acl_win32">
+				<Option output="/home/zhenghu/coding/C/ACLLib/src/win32/libacl_win32.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/src/win32"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/src/common"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/src/win32/mingw-headers"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/src/win32/Makefile&quot;  VERBOSE=1 acl_win32"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/src/win32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/src/win32/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/src/win32/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="acl_win32/fast">
+				<Option output="/home/zhenghu/coding/C/ACLLib/src/win32/libacl_win32.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/src/win32"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/src/common"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/src/win32/mingw-headers"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/src/win32/Makefile&quot;  VERBOSE=1 acl_win32/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/src/win32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/src/win32/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/src/win32/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="acl_sdl">
+				<Option output="/home/zhenghu/coding/C/ACLLib/src/sdl/libacl_sdl.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/src/sdl"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/src/common"/>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/src/sdl/Makefile&quot;  VERBOSE=1 acl_sdl"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/src/sdl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/src/sdl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/src/sdl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="acl_sdl/fast">
+				<Option output="/home/zhenghu/coding/C/ACLLib/src/sdl/libacl_sdl.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/src/sdl"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/src/common"/>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/src/sdl/Makefile&quot;  VERBOSE=1 acl_sdl/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/src/sdl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/src/sdl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/src/sdl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main">
+				<Option output="/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/include"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/test/googletest/googletest/include"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/test/googletest/googletest"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main/fast">
+				<Option output="/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/include"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/test/googletest/googletest/include"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/test/googletest/googletest"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/include"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/test/googletest/googletest/include"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/test/googletest/googletest"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock/fast">
+				<Option output="/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/include"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/test/googletest/googletest/include"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/test/googletest/googletest"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/test/googletest/googletest/include"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/test/googletest/googletest"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/test/googletest/googletest/include"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/test/googletest/googletest"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/test/googletest/googletest/include"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/test/googletest/googletest"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/test/googletest/googletest/include"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/test/googletest/googletest"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="basicTestRunner">
+				<Option output="/home/zhenghu/coding/C/ACLLib/test/basic/basicTestRunner" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/test/basic"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/test/googletest/googletest/include"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/test/googletest/googletest"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/test/basic/../../src"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/basic/Makefile&quot;  VERBOSE=1 basicTestRunner"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/basic/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/basic/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/basic/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="basicTestRunner/fast">
+				<Option output="/home/zhenghu/coding/C/ACLLib/test/basic/basicTestRunner" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/test/basic"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/test/googletest/googletest/include"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/test/googletest/googletest"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/test/basic/../../src"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/basic/Makefile&quot;  VERBOSE=1 basicTestRunner/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/basic/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/basic/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/test/basic/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mouse_move_gtk">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/mouse_move_gtk" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 mouse_move_gtk"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mouse_move_gtk/fast">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/mouse_move_gtk" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 mouse_move_gtk/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clock_win32">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/clock_win32" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/src/win32/mingw-headers"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clock_win32"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clock_win32/fast">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/clock_win32" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/src/win32/mingw-headers"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clock_win32/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mouse_click_win32">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/mouse_click_win32" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/src/win32/mingw-headers"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 mouse_click_win32"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mouse_click_win32/fast">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/mouse_click_win32" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/src/win32/mingw-headers"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 mouse_click_win32/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="network_qt">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/network_qt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/usr/include/qt"/>
+					<Add directory="/usr/include/qt/QtWidgets"/>
+					<Add directory="/usr/include/qt/QtGui"/>
+					<Add directory="/usr/include/qt/QtCore"/>
+					<Add directory="/usr/lib/qt/mkspecs/linux-g++"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 network_qt"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="network_qt/fast">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/network_qt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/usr/include/qt"/>
+					<Add directory="/usr/include/qt/QtWidgets"/>
+					<Add directory="/usr/include/qt/QtGui"/>
+					<Add directory="/usr/include/qt/QtCore"/>
+					<Add directory="/usr/lib/qt/mkspecs/linux-g++"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 network_qt/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mouse_move_qt">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/mouse_move_qt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/usr/include/qt"/>
+					<Add directory="/usr/include/qt/QtWidgets"/>
+					<Add directory="/usr/include/qt/QtGui"/>
+					<Add directory="/usr/include/qt/QtCore"/>
+					<Add directory="/usr/lib/qt/mkspecs/linux-g++"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 mouse_move_qt"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mouse_move_qt/fast">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/mouse_move_qt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/usr/include/qt"/>
+					<Add directory="/usr/include/qt/QtWidgets"/>
+					<Add directory="/usr/include/qt/QtGui"/>
+					<Add directory="/usr/include/qt/QtCore"/>
+					<Add directory="/usr/lib/qt/mkspecs/linux-g++"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 mouse_move_qt/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mouse_click_qt">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/mouse_click_qt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/usr/include/qt"/>
+					<Add directory="/usr/include/qt/QtWidgets"/>
+					<Add directory="/usr/include/qt/QtGui"/>
+					<Add directory="/usr/include/qt/QtCore"/>
+					<Add directory="/usr/lib/qt/mkspecs/linux-g++"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 mouse_click_qt"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mouse_click_qt/fast">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/mouse_click_qt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/usr/include/qt"/>
+					<Add directory="/usr/include/qt/QtWidgets"/>
+					<Add directory="/usr/include/qt/QtGui"/>
+					<Add directory="/usr/include/qt/QtCore"/>
+					<Add directory="/usr/lib/qt/mkspecs/linux-g++"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 mouse_click_qt/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_qt">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/main_qt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/usr/include/qt"/>
+					<Add directory="/usr/include/qt/QtWidgets"/>
+					<Add directory="/usr/include/qt/QtGui"/>
+					<Add directory="/usr/include/qt/QtCore"/>
+					<Add directory="/usr/lib/qt/mkspecs/linux-g++"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 main_qt"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_qt/fast">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/main_qt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/usr/include/qt"/>
+					<Add directory="/usr/include/qt/QtWidgets"/>
+					<Add directory="/usr/include/qt/QtGui"/>
+					<Add directory="/usr/include/qt/QtCore"/>
+					<Add directory="/usr/lib/qt/mkspecs/linux-g++"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 main_qt/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_win32">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/main_win32" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/src/win32/mingw-headers"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 main_win32"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_win32/fast">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/main_win32" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/src/win32/mingw-headers"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 main_win32/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_gtk">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/main_gtk" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 main_gtk"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_gtk/fast">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/main_gtk" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 main_gtk/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="keyboard_gtk">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/keyboard_gtk" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 keyboard_gtk"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="keyboard_gtk/fast">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/keyboard_gtk" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 keyboard_gtk/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_sdl">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/main_sdl" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 main_sdl"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_sdl/fast">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/main_sdl" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 main_sdl/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clock_qt">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/clock_qt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/usr/include/qt"/>
+					<Add directory="/usr/include/qt/QtWidgets"/>
+					<Add directory="/usr/include/qt/QtGui"/>
+					<Add directory="/usr/include/qt/QtCore"/>
+					<Add directory="/usr/lib/qt/mkspecs/linux-g++"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clock_qt"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clock_qt/fast">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/clock_qt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/usr/include/qt"/>
+					<Add directory="/usr/include/qt/QtWidgets"/>
+					<Add directory="/usr/include/qt/QtGui"/>
+					<Add directory="/usr/include/qt/QtCore"/>
+					<Add directory="/usr/lib/qt/mkspecs/linux-g++"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clock_qt/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clock_gtk">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/clock_gtk" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clock_gtk"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clock_gtk/fast">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/clock_gtk" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clock_gtk/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clock_sdl">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/clock_sdl" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clock_sdl"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clock_sdl/fast">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/clock_sdl" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clock_sdl/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="keyboard_qt">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/keyboard_qt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/usr/include/qt"/>
+					<Add directory="/usr/include/qt/QtWidgets"/>
+					<Add directory="/usr/include/qt/QtGui"/>
+					<Add directory="/usr/include/qt/QtCore"/>
+					<Add directory="/usr/lib/qt/mkspecs/linux-g++"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 keyboard_qt"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="keyboard_qt/fast">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/keyboard_qt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/usr/include/qt"/>
+					<Add directory="/usr/include/qt/QtWidgets"/>
+					<Add directory="/usr/include/qt/QtGui"/>
+					<Add directory="/usr/include/qt/QtCore"/>
+					<Add directory="/usr/lib/qt/mkspecs/linux-g++"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 keyboard_qt/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="char_win32">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/char_win32" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/src/win32/mingw-headers"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 char_win32"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="char_win32/fast">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/char_win32" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/src/win32/mingw-headers"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 char_win32/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="char_qt">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/char_qt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/usr/include/qt"/>
+					<Add directory="/usr/include/qt/QtWidgets"/>
+					<Add directory="/usr/include/qt/QtGui"/>
+					<Add directory="/usr/include/qt/QtCore"/>
+					<Add directory="/usr/lib/qt/mkspecs/linux-g++"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 char_qt"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="char_qt/fast">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/char_qt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/usr/include/qt"/>
+					<Add directory="/usr/include/qt/QtWidgets"/>
+					<Add directory="/usr/include/qt/QtGui"/>
+					<Add directory="/usr/include/qt/QtCore"/>
+					<Add directory="/usr/lib/qt/mkspecs/linux-g++"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 char_qt/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="char_gtk">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/char_gtk" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 char_gtk"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="char_gtk/fast">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/char_gtk" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 char_gtk/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="image_win32">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/image_win32" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/src/win32/mingw-headers"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 image_win32"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="image_win32/fast">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/image_win32" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/src/win32/mingw-headers"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 image_win32/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="keyboard_win32">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/keyboard_win32" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/src/win32/mingw-headers"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 keyboard_win32"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="keyboard_win32/fast">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/keyboard_win32" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/src/win32/mingw-headers"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 keyboard_win32/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="image_qt">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/image_qt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/usr/include/qt"/>
+					<Add directory="/usr/include/qt/QtWidgets"/>
+					<Add directory="/usr/include/qt/QtGui"/>
+					<Add directory="/usr/include/qt/QtCore"/>
+					<Add directory="/usr/lib/qt/mkspecs/linux-g++"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 image_qt"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="image_qt/fast">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/image_qt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/usr/include/qt"/>
+					<Add directory="/usr/include/qt/QtWidgets"/>
+					<Add directory="/usr/include/qt/QtGui"/>
+					<Add directory="/usr/include/qt/QtCore"/>
+					<Add directory="/usr/lib/qt/mkspecs/linux-g++"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 image_qt/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mouse_move_win32">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/mouse_move_win32" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/src/win32/mingw-headers"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 mouse_move_win32"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mouse_move_win32/fast">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/mouse_move_win32" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/src/win32/mingw-headers"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 mouse_move_win32/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="image_gtk">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/image_gtk" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 image_gtk"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="image_gtk/fast">
+				<Option output="/home/zhenghu/coding/C/ACLLib/examples/image_gtk" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenghu/coding/C/ACLLib/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenghu/coding/C/ACLLib/examples/../src/common"/>
+					<Add directory="/opt/intel/composerxe/linux/ipp/include"/>
+					<Add directory="/opt/intel/composerxe/linux/mkl/include"/>
+					<Add directory="/opt/intel/composerxe/linux/tbb/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 image_gtk/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhenghu/coding/C/ACLLib/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/examples/char.c">
+			<Option target="char_win32"/>
+			<Option target="char_qt"/>
+			<Option target="char_gtk"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/examples/clock.c">
+			<Option target="clock_win32"/>
+			<Option target="clock_qt"/>
+			<Option target="clock_gtk"/>
+			<Option target="clock_sdl"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/examples/image.c">
+			<Option target="image_win32"/>
+			<Option target="image_qt"/>
+			<Option target="image_gtk"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/examples/keyboard.c">
+			<Option target="keyboard_gtk"/>
+			<Option target="keyboard_qt"/>
+			<Option target="keyboard_win32"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/examples/main.c">
+			<Option target="main"/>
+			<Option target="main_qt"/>
+			<Option target="main_win32"/>
+			<Option target="main_gtk"/>
+			<Option target="main_sdl"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/examples/mouse_click.c">
+			<Option target="mouse_click_win32"/>
+			<Option target="mouse_click_qt"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/examples/mouse_move.c">
+			<Option target="mouse_move_gtk"/>
+			<Option target="mouse_move_qt"/>
+			<Option target="mouse_move_win32"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/examples/network.c">
+			<Option target="network_qt"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/common/acllib.h">
+			<Option target="acl_gtk"/>
+			<Option target="acl_qt"/>
+			<Option target="acl_win32"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/common/functionalities/audio.h">
+			<Option target="acl_qt"/>
+			<Option target="acl_win32"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/common/functionalities/events.h">
+			<Option target="acl_qt"/>
+			<Option target="acl_win32"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/common/functionalities/image.h">
+			<Option target="acl_qt"/>
+			<Option target="acl_win32"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/common/functionalities/window.h">
+			<Option target="acl_qt"/>
+			<Option target="acl_win32"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/common/platform.h">
+			<Option target="acl_qt"/>
+			<Option target="acl_win32"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/gtk/acllib.c">
+			<Option target="acl_gtk"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/qt/components/IntTimer.cpp">
+			<Option target="acl_qt"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/qt/components/IntTimer.h">
+			<Option target="acl_qt"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/qt/components/KeyboardTranslator.cpp">
+			<Option target="acl_qt"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/qt/components/KeyboardTranslator.h">
+			<Option target="acl_qt"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/qt/components/MouseTranslator.cpp">
+			<Option target="acl_qt"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/qt/components/MouseTranslator.h">
+			<Option target="acl_qt"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/qt/components/PaintArea.cpp">
+			<Option target="acl_qt"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/qt/components/PaintArea.h">
+			<Option target="acl_qt"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/qt/functionalities/acllib.cpp">
+			<Option target="acl_qt"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/qt/verdigris/src/wobjectdefs.h">
+			<Option target="acl_qt"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/qt/verdigris/src/wobjectimpl.h">
+			<Option target="acl_qt"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/qt/window.cpp">
+			<Option target="acl_qt"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/qt/window.h">
+			<Option target="acl_qt"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/sdl/acllib_gl.c">
+			<Option target="acl_sdl"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/sdl/functionalities/events.c">
+			<Option target="acl_sdl"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/sdl/functionalities/paint_gl.c">
+			<Option target="acl_sdl"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/win32/functionalities/audio.c">
+			<Option target="acl_win32"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/win32/functionalities/events.c">
+			<Option target="acl_win32"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/win32/functionalities/image.c">
+			<Option target="acl_win32"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/win32/functionalities/paint.c">
+			<Option target="acl_win32"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/win32/functionalities/window.c">
+			<Option target="acl_win32"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/win32/functionalities/window.h">
+			<Option target="acl_win32"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/win32/global.h">
+			<Option target="acl_win32"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/test/basic/basic.cpp">
+			<Option target="basicTestRunner"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/src/gmock-all.cc">
+			<Option target="gmock_main"/>
+			<Option target="gmock"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/src/gmock_main.cc">
+			<Option target="gmock_main"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/test/googletest/googletest/src/gtest-all.cc">
+			<Option target="gmock_main"/>
+			<Option target="gmock"/>
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/test/googletest/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/gtk/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\gtk\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/qt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\qt\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/win32/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\win32\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/src/sdl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\sdl\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QTsLibPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/../../../../../usr/lib64/cmake/SDL2/sdl2-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\SDL2\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/test/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\googletest\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/test/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\googletest\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\googletest\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\googletest\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/test/googletest/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\googletest\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/test/googletest/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\googletest\googletest\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/test/googletest/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\googletest\googletest\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/test/googletest/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\googletest\googletest\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/test/googletest/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\googletest\googletest\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/test/googletest/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\test\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/test/googletest/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\test\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/test/googletest/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\test\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/test/googletest/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\test\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/test/basic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\basic\"/>
+		</Unit>
+		<Unit filename="/home/zhenghu/coding/C/ACLLib/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

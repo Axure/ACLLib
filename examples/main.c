@@ -5,6 +5,7 @@ int firstY = 120;
 int secondY = 220;
 
 void timerCallback(int timerId) {
+  msgBox("This", "That", 0);
   beginPaint();
   if (timerId > 100) {
     line(10, 10, timerId, firstY);

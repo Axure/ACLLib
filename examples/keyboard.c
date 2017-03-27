@@ -3,44 +3,40 @@
 int x = 400;
 int y = 300;
 
-void paint()
-{
-    beginPaint();
+void paint() {
+  beginPaint();
 
-    clearDevice();
-    rectangle(x-10,y-10,x+10,y+10);
+  clearDevice();
+  rectangle(x - 10, y - 10, x + 10, y + 10);
 
-    endPaint();
+  endPaint();
 }
 
-void keyboardEvent(int key,int event)
-{
-    if(event!=KEY_DOWN)
-        return;
-    switch(key)
-    {
+void keyboardEvent(int key, int event) {
+  if (event != KEY_DOWN)
+    return;
+  switch (key) {
     case VK_UP:
-        y-=10;
-        break;
+      y -= 10;
+      break;
     case VK_DOWN:
-        y+=10;
-        break;
+      y += 10;
+      break;
     case VK_LEFT:
-        x-=10;
-        break;
+      x -= 10;
+      break;
     case VK_RIGHT:
-        x+=10;
-        break;
-    }
-    paint();
+      x += 10;
+      break;
+  }
+  paint();
 }
 
-int Setup()
-{
-    initWindow("",DEFAULT,DEFAULT,800,600);
+int Setup() {
+  initWindow("", DEFAULT, DEFAULT, 800, 600);
 
-    registerKeyboardEvent(keyboardEvent);
+  registerKeyboardEvent(keyboardEvent);
 
-    paint();
-    return 0;
+  paint();
+  return 0;
 }

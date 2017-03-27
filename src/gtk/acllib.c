@@ -7,7 +7,6 @@
 #include <assert.h>
 #define G_GET(var, type, member) (((type*)var)->member)
 
-
 typedef struct _window_info {
   char *title;
   int left, top, width, height;
