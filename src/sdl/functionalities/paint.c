@@ -47,7 +47,9 @@ void lineTo(int nXEnd, int nYEnd) {
   lineRGBA(gRenderer, current_x, current_y, nXEnd, nYEnd, 100, 50, 123, 255);
 }
 void lineRel(int dx, int dy) {}
-void polyBezier(const POINT *lppt, int cPoints) {}
+void polyBezier(const POINT *lppt, int cPoints) {
+  bezierRGBA();
+}
 void polyLine(const POINT *lppt, int cPoints) {}
 
 // Filled Shapes
@@ -70,4 +72,7 @@ void pie(int nLeftRect, int nTopRect, int nRightRect, int nBottomRect, \
 void polygon(const POINT *lpPoints, int nCount) {}
 void rectangle(int nLeftRect, int nTopRect, int nRightRect, int nBottomRect) {}
 void roundrect(int nLeftRect, int nTopRect, int nRightRect, int nBottomRect, \
-    int nWidth, int nHeight) {}
+    int nWidth, int nHeight) {
+  roundedRectangleRGBA(nLeftRect, nTopRect, nRightRect, nBottomRect
+  );
+}

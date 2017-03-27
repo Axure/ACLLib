@@ -1,6 +1,10 @@
 
 
-add_library(acl_sdl acllib_gl.c)
+add_library(acl_sdl
+  acllib_gl.c
+  functionalities/events.c
+  functionalities/paint_gl.c
+  )
 
 find_package(SDL2 REQUIRED)
 find_package(OpenGL REQUIRED)
