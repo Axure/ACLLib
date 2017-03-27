@@ -1,4 +1,5 @@
 #include "acllib.h"
+#include <string.h>
 
 #define MLEN 64
 

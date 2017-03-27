@@ -192,6 +192,13 @@ void chrod(int nLeftRect, int nTopRect, int nRightRect, int nBottomRect, \
     int nXRadial1, int nYRadial1, int nXRadial2, int nYRadial2) {
   pGlobalWidget->chrod(nLeftRect, nTopRect, nRightRect, nBottomRect, nXRadial1, nYRadial1, nXRadial2, nYRadial2);
 }
+/**
+ *
+ * @param nLeftRect
+ * @param nTopRect
+ * @param nRightRect
+ * @param nBottomRect
+ */
 void ellipse(int nLeftRect, int nTopRect, int nRightRect, int nBottomRect) {
   pGlobalWidget->ellipse(nLeftRect, nTopRect, nRightRect - nLeftRect, nBottomRect - nTopRect);
 }

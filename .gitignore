@@ -243,3 +243,6 @@ CTestTestfile.cmake
 
 *.cbp
 !examples/Makefile
+
+# CLion cmake build directories.
+cmake-build-*

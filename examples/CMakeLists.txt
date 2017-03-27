@@ -15,9 +15,6 @@ target_link_libraries(main_win32 acl_win32)
 add_executable(main_gtk main.c)
 target_link_libraries(main_gtk acl_gtk)
 
-add_executable(network_qt network.c)
-target_link_libraries(network_qt acl_qt)
-
 add_executable(main_sdl main.c)
 target_link_libraries(main_sdl acl_sdl)
 #########################
@@ -91,3 +88,13 @@ target_link_libraries(mouse_move_qt acl_qt)
 
 add_executable(mouse_move_gtk mouse_move.c)
 target_link_libraries(mouse_move_gtk acl_gtk)
+
+
+######################
+####network exampl####
+######################
+add_executable(network_qt network.c)
+target_link_libraries(network_qt acl_qt)
+
+add_executable(network_gtk network.c)
+target_link_libraries(network_gtk acl_gtk)

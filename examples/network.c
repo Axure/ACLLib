@@ -10,6 +10,7 @@ int Setup() {
   beginPaint();
 
   line(10, 10, 100, 100);
+  ellipse(0, 0, 400, 200);
 
   endPaint();
 
