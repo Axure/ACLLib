@@ -6,6 +6,7 @@
 #include <gtk/gtk.h>
 
 #include <assert.h>
+#include <stdlib.h>
 #define G_GET(var, type, member) (((type*)var)->member)
 
 typedef struct _window_info {
@@ -36,9 +37,21 @@ typedef struct acl_ellipse_s {
   int bottom_rect;
 } acl_ellipse_t;
 
+/* The global data */
 GtkWidget *window;
 GArray *acl_ellipses;
 GArray *acl_timers;
+cairo_surface_t *acl_buffer_image;
+cairo_surface_t *acl_backup_buffer_image;
+cairo_surface_t *acl_old_back_image;
+cairo_t *acl_cairo_context;
+cairo_t *acl_backup_cairo_context;
+
+
+double current_x = 0, current_y = 0;
+
+double width = 0, height = 0;
+/* The global data */
 
 /**
  * The event loop.
@@ -53,14 +66,12 @@ draw_callback(GtkWidget *widget, cairo_t *cr, gpointer data) {
   GdkRGBA color;
   GtkStyleContext *context;
 
-  double current_x = 0, current_y = 0;
-
   context = gtk_widget_get_style_context(widget);
 
   width = gtk_widget_get_allocated_width(widget);
   height = gtk_widget_get_allocated_height(widget);
 
-  gtk_render_background(context, cr, 0, 0, width, height);
+//  gtk_render_background(context, cr, 0, 0, width, height);
   cairo_set_line_width(cr, 1);
 //  cairo_arc(cr,
 //            width / 2.0, height / 2.0,
@@ -78,27 +89,85 @@ draw_callback(GtkWidget *widget, cairo_t *cr, gpointer data) {
 //  cairo_restore(cr);
 //  cairo_stroke(cr);
 
-  for (int i = 0; i < acl_ellipses->len; ++i) {
-    printf("Painted ellipse");
-    cairo_set_line_width(cr, 2);
-    acl_ellipse_t *current_ellipse = &g_array_index(acl_ellipses, acl_ellipse_t, i);
-    double x = (current_ellipse->left_rect + current_ellipse->right_rect) / 2.0;
-    double y = (current_ellipse->top_rect + current_ellipse->bottom_rect) / 2.0;
-    double radius_x = (current_ellipse->right_rect - current_ellipse->left_rect) / 2.0;
-    double radius_y = (current_ellipse->bottom_rect - current_ellipse->top_rect) / 2.0;
-    cairo_translate(cr, x - current_x, y - current_y);
-    current_x = x;
-    current_y = y;
-    cairo_scale(cr, 1, radius_y / radius_x);
-    cairo_arc(cr, 0, 0, radius_x, 0, 2 * G_PI);
-    cairo_close_path(cr);
-    cairo_stroke(cr);
-    cairo_scale(cr, 1, 1); // TODO: Is this needed?
-  }
+  cairo_set_source_surface(cr, acl_buffer_image, 0.0, 0.0);
+  cairo_paint(cr);
+//  for (int i = 0; i < (acl_ellipses->len > 1 ? 1 : 0); ++i) {
+
+//  }
 
 //  cairo_fill (cr);
 
   return FALSE;
+}
+
+gboolean initial_paint = TRUE;
+
+void configure_callback(GtkWindow *window,
+                        GdkEvent *event, gpointer data) {
+
+  int x, y;
+  GString *buf;
+
+  x = event->configure.width;
+  y = event->configure.height;
+  if (x > width || y > height) {
+    width = x > (width + 128) ? x : width + 128;
+    height = y > (height + 128) ? y : height + 128;
+    printf("%p", window);
+    /**
+     * Create the backup image.
+     */
+    acl_backup_buffer_image = gdk_window_create_similar_image_surface(
+        gtk_widget_get_window(window),
+        CAIRO_FORMAT_ARGB32,
+        width,
+        height,
+        1
+    );
+    /**
+     * Create the backup context and draw on the backup image.
+     */
+    acl_backup_cairo_context = cairo_create(acl_backup_buffer_image);
+    cairo_rectangle(acl_backup_cairo_context, 0, 0
+        , cairo_image_surface_get_width(acl_backup_buffer_image)
+        , cairo_image_surface_get_height(acl_backup_buffer_image));
+    cairo_set_source_rgba(acl_backup_cairo_context, 1.0, 1.0, 1.0, 1);
+    cairo_fill(acl_backup_cairo_context);
+    /**
+     * Swap the images. Store the old image for future destruction.
+     * We should also copy the content from the old image.
+     */
+    acl_old_back_image = acl_buffer_image;
+
+    cairo_set_source_surface(acl_backup_cairo_context, acl_buffer_image, 0.0, 0.0);
+    cairo_paint(acl_backup_cairo_context);
+
+    acl_buffer_image = acl_backup_buffer_image;
+    gtk_widget_queue_draw(window); // TODO: Is this elegant?
+    /**
+     * Destroy the old image.
+     */
+    if (acl_old_back_image) {
+      cairo_surface_destroy(acl_old_back_image);
+    }
+  }
+
+  gtk_widget_queue_draw(window); // TODO: Is this elegant?
+  if (initial_paint) { // TODO: why doesn't this trigger an immediate redraw?
+    printf("Initial paint!");
+    beginPaint();
+    clearDevice();
+    endPaint();
+    initial_paint = FALSE;
+  }
+  buf = g_string_new(NULL);
+  g_string_printf(buf, "%d, %d", x, y);
+  printf("Configure: %d, %d, event %d\n", x, y,
+         event->type);
+
+  gtk_window_set_title(window, buf->str);
+
+  g_string_free(buf, TRUE);
 }
 
 /**
@@ -117,7 +186,7 @@ activate(GtkApplication *app,
       G_GET(user_data, window_info_s, width),
       G_GET(user_data, window_info_s, height)
   );
-  gtk_window_set_resizable(window, FALSE);
+//  gtk_window_set_resizable(window, FALSE);
   gtk_window_move(
       GTK_WINDOW(window),
       G_GET(user_data, window_info_s, left),
@@ -125,17 +194,20 @@ activate(GtkApplication *app,
   );
 
   GtkWidget *drawing_area = gtk_drawing_area_new();
-  gtk_widget_set_size_request(drawing_area, G_GET(user_data, window_info_s, width), G_GET(user_data, window_info_s, height));
+  gtk_widget_set_size_request(drawing_area,
+                              G_GET(user_data, window_info_s, width),
+                              G_GET(user_data, window_info_s, height));
   g_signal_connect (G_OBJECT(drawing_area), "draw",
                     G_CALLBACK(draw_callback), NULL);
 
-  GtkWidget *box = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 6);
-  gtk_container_add(GTK_CONTAINER(window), box);
+//  GtkWidget *box = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 6);
+  gtk_container_add(GTK_CONTAINER(window), drawing_area);
 
-
+  g_signal_connect(G_OBJECT(window), "configure-event",
+                   G_CALLBACK(configure_callback), NULL);
 //  GtkWidget *button = gtk_button_new();
 
-  gtk_container_add(GTK_CONTAINER(box), drawing_area);
+//  gtk_container_add(GTK_CONTAINER(box), drawing_area);
 //  gtk_container_add(GTK_CONTAINER(box), button);
   gtk_widget_show_all(window);
 }
@@ -149,6 +221,10 @@ activate(GtkApplication *app,
 int main(int argc,
          char **argv) {
   init_datastructure();
+
+//  acl_back_image = gtk_image_new();
+
+
   Setup();
   printf("THis is not turE!\n");
 
@@ -187,7 +263,12 @@ void initWindow(const char title[], int left, int top, int width, int height) {
 
 }
 void msgBox(const char title[], const char text[], int flag) {
-//  gtk_dialog_new();
+//  gtk_dialog_new(window,
+//                 GTK_DIALOG_MODAL,
+//                 GTK_MESSAGE_INFO,
+//                 GTK_BUTTONS_OK,
+//                 title
+//  );
 }
 
 void registerKeyboardEvent(KeyboardEventCallback callback) {
@@ -204,7 +285,9 @@ void registerTimerEvent(TimerEventCallback callback) {
 void startTimer(int timerID, int timeinterval) {
   acl_timer_t new_timer = {timerID};
   g_array_append_val(acl_timers, new_timer);
-  g_timeout_add(timeinterval, acl_timer_callback, &(g_array_index(acl_timers, acl_timer_t, acl_timers->len - 1))); // TODO: better way to get the element.
+  g_timeout_add(timeinterval,
+                acl_timer_callback,
+                &(g_array_index(acl_timers, acl_timer_t, acl_timers->len - 1))); // TODO: better way to get the element.
   // TODO: currently the timer data is not released.
 }
 void cancelTimer(int timerID) {}
@@ -216,13 +299,21 @@ void stopSound(ACL_Sound soundID) {}
 
 // Paint
 void beginPaint() {
-
+  acl_cairo_context = cairo_create(acl_buffer_image);
 }
 void endPaint() {
 //gdk_window_invalidate_rect(window, TRUE);
   gtk_widget_queue_draw(window); // TODO: Is this elegant?
 }
-void clearDevice(void) {}
+void clearDevice(void) {
+  printf("Doing with %d, %d\n", cairo_image_surface_get_width(acl_buffer_image)
+      , cairo_image_surface_get_height(acl_buffer_image));
+  cairo_rectangle(acl_cairo_context, 0, 0
+      , cairo_image_surface_get_width(acl_buffer_image)
+      , cairo_image_surface_get_height(acl_buffer_image));
+  cairo_set_source_rgba(acl_cairo_context, 1.0, 1.0, 1.0, 1);
+  cairo_fill(acl_cairo_context);
+}
 int getWidth() {}
 int getHeight() {}
 
@@ -253,16 +344,28 @@ void putPixel(int x, int y, ACL_Color color) {}
 ACL_Color getPixel(int x, int y) {}
 
 // the Point
-int getX(void) {}
+int getX(void) {
+  double x, y;
+  cairo_get_current_point(acl_cairo_context, &x, &y);
+  return x;
+}
 int getY(void) {}
-void moveTo(int x, int y) {}
+void moveTo(int x, int y) {
+  printf("Moving to %d, %d\n", x, y);
+  cairo_move_to(acl_cairo_context, x, y);
+}
 void moveRel(int dx, int dy) {}
 
 // Lines and Curves
 void arc(int nLeftRect, int nTopRect, int nRightRect, int nBottomRect, \
     int nXStartArc, int nYStartArc, int nXEndArc, int nYEndArc) {}
 void line(int x0, int y0, int x1, int y1) {}
-void lineTo(int nXEnd, int nYEnd) {}
+void lineTo(int nXEnd, int nYEnd) {
+  printf("Line to %d, %d\n", nXEnd, nYEnd);
+  cairo_line_to(acl_cairo_context, nXEnd, nYEnd);
+  cairo_set_source_rgba(acl_cairo_context, 0.0, 0.0, 0.0, 1.0);
+  cairo_stroke(acl_cairo_context);
+}
 void lineRel(int dx, int dy) {}
 void polyBezier(const POINT *lppt, int cPoints) {}
 void polyLine(const POINT *lppt, int cPoints) {}
@@ -271,12 +374,22 @@ void polyLine(const POINT *lppt, int cPoints) {}
 void chrod(int nLeftRect, int nTopRect, int nRightRect, int nBottomRect, \
     int nXRadial1, int nYRadial1, int nXRadial2, int nYRadial2) {}
 void ellipse(int nLeftRect, int nTopRect, int nRightRect, int nBottomRect) {
-  printf("Appending ellipse\n");
-  acl_ellipse_t new_ellipse = {
-      nLeftRect, nTopRect, nRightRect, nBottomRect
-  };
-  g_array_append_val(acl_ellipses, new_ellipse);
-  printf("Appended ellipse\n");
+    printf("Painted ellipse");
+    cairo_set_source_rgba(acl_cairo_context, 0.0, 0.0, 0.0, 1.0);
+    cairo_set_line_width(acl_cairo_context, 2);
+    double x = (nLeftRect + nRightRect) / 2.0;
+    double y = (nTopRect + nBottomRect) / 2.0;
+    double radius_x = (nRightRect - nLeftRect) / 2.0;
+    double radius_y = (nBottomRect - nTopRect) / 2.0;
+    cairo_translate(acl_cairo_context, x - current_x, y - current_y);
+//    current_x = x;
+//    current_y = y;
+    cairo_scale(acl_cairo_context, 1, radius_y / radius_x /* * (rand() / (double) RAND_MAX) */);
+    cairo_arc(acl_cairo_context, 0, 0, radius_x, 0, 2 * G_PI);
+    cairo_close_path(acl_cairo_context);
+    cairo_stroke(acl_cairo_context);
+    cairo_scale(acl_cairo_context, 1, 1); // TODO: Is this needed?
+    cairo_translate(acl_cairo_context, -x , -y);
 }
 void pie(int nLeftRect, int nTopRect, int nRightRect, int nBottomRect, \
     int nXRadial1, int nYRadial1, int nXRadial2, int nYRadial2) {}

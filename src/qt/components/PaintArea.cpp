@@ -162,15 +162,29 @@ void AclGlobalWidget::keyReleaseEvent(QKeyEvent *event) {
   }
 }
 
+/**
+ * The paint event handler.
+ *
+ * Paint the image onto the screen.
+ *
+ * @param event
+ */
 void AclGlobalWidget::paintEvent(QPaintEvent *event) {
+  qDebug() << image.size() << '\n';
   QPainter painter(this);
   QRect dirtyRect = event->rect();
   painter.drawImage(dirtyRect, image, dirtyRect);
 //  painter.setRenderHints(QPainter::HighQualityAntialiasing, true);
 }
 
+/**
+ * Handling resize.
+ * If the window is resized, we should also resize the image probably.
+ * @param event
+ */
 void AclGlobalWidget::resizeEvent(QResizeEvent *event)
 {
+  qDebug() << "Windows resized!";
   if (width() > image.width() || height() > image.height()) {
     int newWidth = qMax(width() + 128, image.width());
     int newHeight = qMax(height() + 128, image.height());
@@ -180,6 +194,14 @@ void AclGlobalWidget::resizeEvent(QResizeEvent *event)
   QWidget::resizeEvent(event);
 }
 
+/**
+ * Resize the bitmap.
+ *
+ * The implementation.
+ *
+ * @param image
+ * @param newSize
+ */
 void AclGlobalWidget::resizeImage(QImage *image, const QSize &newSize)
 //! [19] //! [20]
 {
@@ -199,6 +221,9 @@ void AclGlobalWidget::timerListener(int timerId) {
   }
 }
 
+/**
+ * Set the painter to paint with the image.
+ */
 void AclGlobalWidget::beginPaint() {
   painter = new QPainter(&image);
 }
