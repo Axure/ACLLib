@@ -246,3 +246,5 @@ CTestTestfile.cmake
 
 # CLion cmake build directories.
 cmake-build-*
+
+build
