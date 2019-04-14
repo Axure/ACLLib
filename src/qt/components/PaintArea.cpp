@@ -76,7 +76,7 @@ AclGlobalWidget::~AclGlobalWidget() {
 /**
  * Delates the painter creation and choice of pen/brush.
  * Checks if the `painter` pointer is null. If not, delete it.
- * As the library provides no mutlitheading, this should be considered safe.
+ * As the library provides no multi-threading, this should be considered safe.
  * @return A pointer to the painter object.
  */
 QPainter *AclGlobalWidget::getPainter() {
